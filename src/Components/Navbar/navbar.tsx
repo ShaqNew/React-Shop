@@ -42,7 +42,7 @@ const Navbar = () => {
 
   return (
     <header className="heading"  data-testid="header">
-      <h1>Basic React Checkpoint</h1>
+      <h1>Basic React Shop</h1>
       <span className="heading__topButtons">
         <div className="heading__wishlistButton">
           <button onClick={() => displayWishlist()} className="icon-button" data-testid="wishlist-button">
