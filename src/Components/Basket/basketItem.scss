@@ -1,0 +1,82 @@
+.basketItem{
+    height: 100px;
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    &:hover {
+        transition: .2s;
+        transform: translate(-2px, -2px);
+        -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    }
+    &__image {
+        display: flex;
+        & img {
+            display: flex;
+            max-width: 100px;
+            object-fit: contain;
+        }
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    &__title {
+        display: flex;
+        height: 40px;
+        margin: 10px 7px;
+        justify-content: center;
+        overflow: hidden;
+    }
+    &__bottom {
+        display: flex;
+        justify-content: right;
+        padding: 0 50px;
+    }
+    &__quantity {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__price {
+        display: flex;
+        width: 100px;
+        justify-content: right;
+    }
+    &__right {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        justify-content: space-between;
+        padding: 0 5px;
+    }
+    &__quantityModifier {
+        background: #f3f3f3;
+        color: #888;
+        border: 0 solid #dbdbdb;
+        text-shadow: 0 1px 0 rgb(255 255 255 / 60%);
+        cursor: pointer;
+    }
+    &__quantityNumber{
+        border: 0;
+        border-top: 0 solid #dbdbdb;
+        border-bottom: 0 solid #dbdbdb;
+        text-align: center;
+        width: 30px;
+    }
+    &__icon:hover {
+        background-color: #ff0000d8;
+        transition: .2s;
+        transform: translate(-2px, -2px);
+        -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    }
+}
+
+.fa {
+    padding: 2px 3px;
+}

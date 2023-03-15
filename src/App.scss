@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+
+.button-with-text {
+  background: #f3f3f3;
+  color: #888;
+  border: 0 solid #dbdbdb;
+  text-shadow: 0 1px 0 rgba(111, 111, 111, 0.339);
+  cursor: pointer;
+  &:hover {
+    background: #c0c0c0;
+    color: rgb(255, 255, 255);
+    transition: .3s;
+    transform: translate(-2px, -2px);
+  }
+}
+
+.icon-button {
+  border: none;
+  background: none;
+  &:hover {
+    border: none;
+    background: none;
+    transition: none;
+    transform: none;
+  }
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 150px 50px;
+  justify-content: center;
+}
+
+.fa-close:hover {
+  background-color: #ff0000d8;
+  transition: .2s;
+  transform: translate(-2px, -2px);
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}

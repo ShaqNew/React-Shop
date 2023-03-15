@@ -1,0 +1,26 @@
+.wishlist {
+    &--hidden {
+        display: none;
+    }
+    &--show {
+        display: flex;
+        flex-direction: column;
+        outline: grey solid 1px;
+        top: 120px;
+        min-height: 100px;
+        max-height: 400px;
+        width: 300px;
+        padding: 30px;
+        position: fixed;
+        left: 50px;
+        background-color: white;
+        color: black;
+        overflow-y: auto;
+    }
+
+    &__item-container {
+        display: flex;
+        justify-content: center;
+    }
+}
+

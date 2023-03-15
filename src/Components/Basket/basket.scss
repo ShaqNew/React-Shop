@@ -1,0 +1,30 @@
+.basket{
+    &--hidden {
+        display: none;
+    }
+    &--show {
+        display: flex;
+        flex-direction: column;
+        outline: grey solid 1px;
+        top: 120px;
+        min-height: 100px;
+        max-height: 400px;
+        width: 500px;
+        padding: 30px;
+        position: fixed;
+        right: 50px;
+        background-color: white;
+        color: black;
+        overflow-y: auto;
+    }
+    &__clear-all-button {
+        display: flex;
+        height: 40px;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    &__item-container {
+        display: flex;
+        justify-content: center;
+    }
+}
